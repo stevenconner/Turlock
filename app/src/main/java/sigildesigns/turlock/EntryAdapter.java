@@ -1,7 +1,6 @@
 package sigildesigns.turlock;
 
 import android.app.Activity;
-import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +20,6 @@ public class EntryAdapter extends ArrayAdapter<Entry> {
         super(context, 0, entries);
     }
 
-    @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if existing view is being reused, otherwise inflate the view

@@ -4,18 +4,20 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:layout_marginLeft="16dp"
-              android:layout_marginTop="16dp"
               android:orientation="vertical">
 
     <TextView
         android:id="@+id/name_of_entry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Name of the entry"/>
+        tools:text="Name of the entry"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
 
     <ImageView
         android:id="@+id/image_of_entry"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        tools:src="@drawable/landmark_one"/>
+        tools:src="@drawable/landmark_one"
+        android:layout_gravity="center"/>
 </LinearLayout>
