@@ -27,7 +27,9 @@ public class EventsFragment extends Fragment {
         entries.add(new Entry("Main Street Live", "http://turlockdowntown.com/main-street-live", R.drawable.events_one));
         entries.add(new Entry("Country Folk Art Craft Show","http://www.countryfolkart.com/1607_tur_nov/1607_overview.htm",R.drawable.events_two));
         entries.add(new Entry("Turlock Festival of Lights", "http://www.turlockdowntown.com/content/festival-lights", R.drawable.events_three));
-
+        entries.add(new Entry("Turlock Christmas Parade", "http://cityofturlock.org/recreation/communityevents/christmasparade.asp", R.drawable.events_four));
+        entries.add(new Entry("Toy Trains Show","http://www.sjvtoytrainoperatorsinc.com/",R.drawable.events_five));
+        entries.add(new Entry("Turlock Swap Meet","http://www.turlockswapmeet.com/",R.drawable.events_six));
 
 
 
