@@ -10,14 +10,14 @@
         android:id="@+id/name_of_entry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Name of the entry"
+        android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:layout_gravity="center"/>
+        tools:text="Name of the entry"/>
 
     <ImageView
         android:id="@+id/image_of_entry"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        tools:src="@drawable/landmark_one"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        tools:src="@drawable/landmark_one"/>
 </LinearLayout>
