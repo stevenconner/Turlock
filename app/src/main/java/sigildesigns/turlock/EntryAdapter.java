@@ -24,8 +24,9 @@ public class EntryAdapter extends ArrayAdapter<Entry> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if existing view is being reused, otherwise inflate the view
         View gridItemView = convertView;
-        if (gridItemView == null){
-            gridItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+        if (gridItemView == null) {
+            gridItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent,
+                    false);
         }
 
         // Get the {@link entries} object located at this position in the list

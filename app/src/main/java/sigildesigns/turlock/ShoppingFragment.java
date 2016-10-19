@@ -12,7 +12,6 @@ import android.widget.GridView;
 
 import java.util.ArrayList;
 
-
 /**
  * Fragment that displays Shopping destinations in Turlock.
  */

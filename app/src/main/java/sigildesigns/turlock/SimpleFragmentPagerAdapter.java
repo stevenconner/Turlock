@@ -15,13 +15,13 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0){
+        if (position == 0) {
             return "Landmarks";
-        } else if (position == 1){
+        } else if (position == 1) {
             return "Events";
-        } else if (position == 2){
+        } else if (position == 2) {
             return "Eating";
-        } else{
+        } else {
             return "Shopping";
         }
     }
@@ -30,9 +30,9 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new LandmarksFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new EventsFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new RestaurantsFragment();
         } else {
             return new ShoppingFragment();
