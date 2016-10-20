@@ -25,19 +25,25 @@ public class LandmarksFragment extends Fragment {
 
         // Create a list of the landmarks in Turlock
         final ArrayList<Entry> entries = new ArrayList<Entry>();
-        entries.add(new Entry("Calafia Statue", "http://www.roadsideamerica.com/tip/41944", R
+        entries.add(new Entry(getString(R.string.landmarks_name_one), "http://www.roadsideamerica" +
+                ".com/tip/41944", R
                 .drawable.landmark_one));
-        entries.add(new Entry("Carnegie Arts Building", "http://www.carnegieartsturlock.org/", R
+        entries.add(new Entry(getString(R.string.landmarks_name_two), "http://www" +
+                ".carnegieartsturlock.org/", R
                 .drawable.landmark_two));
-        entries.add(new Entry("John Mitchell Statue", "http://local.townsquarepublications" +
+        entries.add(new Entry(getString(R.string.landmarks_name_three), "http://local" +
+                ".townsquarepublications" +
                 ".com/california/turlock_old-10/02/topic.html", R.drawable.landmark_three));
-        entries.add(new Entry("Stanislaus County Fairground Arch Gate", "http://www.stancofair" +
+        entries.add(new Entry(getString(R.string.landmarks_name_four), "http://www.stancofair" +
                 ".com/fair-history-2/", R.drawable.landmark_four));
-        entries.add(new Entry("Historic Downtown Turlock", "http://www.turlockdowntown.com/", R
+        entries.add(new Entry(getString(R.string.landmarks_name_five), "http://www" +
+                ".turlockdowntown.com/", R
                 .drawable.landmark_five));
-        entries.add(new Entry("Turlock High School", "https://ths-turlockusd-ca.schoolloop.com/",
+        entries.add(new Entry(getString(R.string.landmarks_name_six), "https://ths-turlockusd-ca" +
+                ".schoolloop.com/",
                 R.drawable.landmark_six));
-        entries.add(new Entry("Turlock Museum", "http://turlockhistoricalsociety.org/", R
+        entries.add(new Entry(getString(R.string.landmarks_name_seven),
+                "http://turlockhistoricalsociety.org/", R
                 .drawable.landmark_seven));
 
         // Create an {@link EntryAdapter}, whose data source is a list of {@link entry}s. The

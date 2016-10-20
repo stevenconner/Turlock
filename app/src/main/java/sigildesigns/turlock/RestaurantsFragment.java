@@ -25,25 +25,31 @@ public class RestaurantsFragment extends Fragment {
 
         //Create a list of some of the good restaurants in Turlock
         final ArrayList<Entry> entries = new ArrayList<Entry>();
-        entries.add(new Entry("Jura's Pizza Parlor & Sports Bar", "http://www.juraspizza.com/home" +
+        entries.add(new Entry(getString(R.string.restaurants_name_one), "http://www.juraspizza" +
+                ".com/home" +
                 ".aspx", R.drawable.restaurants_one));
-        entries.add(new Entry("Silva's Taco Truck", "https://www.yelp" +
+        entries.add(new Entry(getString(R.string.restaurants_name_two), "https://www.yelp" +
                 ".com/biz/silvas-taco-truck-turlock", R.drawable.restaurants_two));
-        entries.add(new Entry("Gyros & More", "https://www.yelp" +
+        entries.add(new Entry(getString(R.string.restaurants_name_three), "https://www.yelp" +
                 ".com/biz/gyros-and-more-turlock-2", R.drawable.restaurants_three));
-        entries.add(new Entry("Dust Bowl Downtown Taproom", "http://www.dustbowlbrewing" +
+        entries.add(new Entry(getString(R.string.restaurants_name_four), "http://www" +
+                ".dustbowlbrewing" +
                 ".com/taprooms/downtown/", R.drawable.restaurants_four));
-        entries.add(new Entry("Kraving Kebab Pizza", "http://www.kravingkebabpizza.com", R
+        entries.add(new Entry(getString(R.string.restaurants_name_five), "http://www" +
+                ".kravingkebabpizza.com", R
                 .drawable.restaurants_five));
-        entries.add(new Entry("The Creperie", "https://www.yelp.com/biz/the-creperie-turlock", R
+        entries.add(new Entry(getString(R.string.restaurants_name_six), "https://www.yelp" +
+                ".com/biz/the-creperie-turlock", R
                 .drawable.restaurants_six));
-        entries.add(new Entry("Manna Korean Cuisine", "https://www.yelp" +
+        entries.add(new Entry(getString(R.string.restaurants_name_seven), "https://www.yelp" +
                 ".com/biz/manna-korean-cuisine-turlock", R.drawable.restaurants_seven));
-        entries.add(new Entry("La Mo Cafe", "https://www.yelp.com/biz/la-mo-cafe-turlock", R
+        entries.add(new Entry(getString(R.string.restaurants_name_eight), "https://www.yelp" +
+                ".com/biz/la-mo-cafe-turlock", R
                 .drawable.restaurants_eight));
-        entries.add(new Entry("Crust & Crumb", "https://www.yelp" +
+        entries.add(new Entry(getString(R.string.restaurants_name_nine), "https://www.yelp" +
                 ".com/biz/crust-and-crumb-turlock", R.drawable.restaurants_nine));
-        entries.add(new Entry("Patogh", "http://www.patoghdining.com/", R.drawable
+        entries.add(new Entry(getString(R.string.restaurants_name_ten), "http://www.patoghdining" +
+                ".com/", R.drawable
                 .restaurants_ten));
 
         // Create an {@link EntryAdapter}, whose data source is a list of {@link entry}s. The

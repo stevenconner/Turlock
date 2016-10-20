@@ -4,5 +4,36 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="about_text">This is the about fragment.</string>
+    <string name="toptext">Click an item to learn more.</string>
+    <string name="events_name_one">Main Street Live</string>
+    <string name="events_name_two">Country Folk Art Craft Show</string>
+    <string name="events_name_three">Turlock Festival of Lights</string>
+    <string name="events_name_four">Turlock Christmas Parade</string>
+    <string name="events_name_five">Toy Trains Show</string>
+    <string name="events_name_six">Turlock Swap Meet</string>
+    <string name="landmarks_name_one">Calafia Statue</string>
+    <string name="landmarks_name_two">Carnegie Arts Building</string>
+    <string name="landmarks_name_three">John Mitchell Statue</string>
+    <string name="landmarks_name_four">Stanislaus County Fairground Arch Gate</string>
+    <string name="landmarks_name_five">Historic Downtown Turlock</string>
+    <string name="landmarks_name_six">Turlock High School</string>
+    <string name="landmarks_name_seven">Turlock Museum</string>
+    <string name="restaurants_name_one">Jura\'s Pizza Parlor &amp; Sports Bar</string>
+    <string name="restaurants_name_two">Silva\'s Taco Truck</string>
+    <string name="restaurants_name_three">Gryos &amp; More</string>
+    <string name="restaurants_name_four">Dust Bowl Downtown Taproom</string>
+    <string name="restaurants_name_five">Kraving Kebab Pizza</string>
+    <string name="restaurants_name_six">The Creperie</string>
+    <string name="restaurants_name_seven">Manna Korean Cuisine</string>
+    <string name="restaurants_name_eight">La Mo Cafe</string>
+    <string name="restaurants_name_nine">Crust &amp; Crumb</string>
+    <string name="restaurants_name_ten">Patogh</string>
+    <string name="shopping_name_one">Turlock Downtown</string>
+    <string name="shopping_name_two">Monte Vista Crossings</string>
+    <string name="shopping_name_three">Countryside Plaza</string>
+    <string name="category_1">Landmarks</string>
+    <string name="category_2">Events</string>
+    <string name="category_3">Eating</string>
+    <string name="category_4">Shopping</string>
 
 </resources>

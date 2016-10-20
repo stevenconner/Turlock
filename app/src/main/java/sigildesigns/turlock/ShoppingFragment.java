@@ -25,11 +25,12 @@ public class ShoppingFragment extends Fragment {
 
         //Create a list of some of the good shopping places in Turlock
         final ArrayList<Entry> entries = new ArrayList<Entry>();
-        entries.add(new Entry("Turlock Downtown", "http://www.turlockdowntown.com/content/shop",
+        entries.add(new Entry(getString(R.string.shopping_name_one), "http://www.turlockdowntown" +
+                ".com/content/shop",
                 R.drawable.shopping_one));
-        entries.add(new Entry("Monte Vista Crossings", "https://www.mallscenters" +
+        entries.add(new Entry(getString(R.string.shopping_name_two), "https://www.mallscenters" +
                 ".com/malls/california/monte-vista-crossings", R.drawable.shopping_two));
-        entries.add(new Entry("Countryside Plaza", "http://www.turlockchamber" +
+        entries.add(new Entry(getString(R.string.shopping_name_three), "http://www.turlockchamber" +
                 ".com/Visit_Turlock/Shopping.aspx", R.drawable.shopping_three));
 
         // Create an {@link EntryAdapter}, whose data source is a list of {@link entry}s. The

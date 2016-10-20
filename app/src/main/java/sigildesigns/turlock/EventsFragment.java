@@ -15,6 +15,7 @@ import java.util.ArrayList;
 /**
  * Fragment that displays Events that happen in Turlock.
  */
+
 public class EventsFragment extends Fragment {
 
     @Override
@@ -24,19 +25,21 @@ public class EventsFragment extends Fragment {
 
         // Create a list of some upcoming events in Turlock
         final ArrayList<Entry> entries = new ArrayList<Entry>();
-        entries.add(new Entry("Main Street Live", "http://turlockdowntown.com/main-street-live",
+        entries.add(new Entry(getString(R.string.events_name_one), "http://turlockdowntown" +
+                ".com/main-street-live",
                 R.drawable.events_one));
-        entries.add(new Entry("Country Folk Art Craft Show", "http://www.countryfolkart" +
+        entries.add(new Entry(getString(R.string.events_name_two), "http://www.countryfolkart" +
                 ".com/1607_tur_nov/1607_overview.htm", R.drawable.events_two));
-        entries.add(new Entry("Turlock Festival of Lights", "http://www.turlockdowntown" +
+        entries.add(new Entry(getString(R.string.events_name_three), "http://www.turlockdowntown" +
                 ".com/content/festival-lights", R.drawable.events_three));
-        entries.add(new Entry("Turlock Christmas Parade", "http://cityofturlock" +
+        entries.add(new Entry(getString(R.string.events_name_four), "http://cityofturlock" +
                 ".org/recreation/communityevents/christmasparade.asp", R.drawable.events_four));
-        entries.add(new Entry("Toy Trains Show", "http://www.sjvtoytrainoperatorsinc.com/", R
+        entries.add(new Entry(getString(R.string.events_name_five), "http://www" +
+                ".sjvtoytrainoperatorsinc.com/", R
                 .drawable.events_five));
-        entries.add(new Entry("Turlock Swap Meet", "http://www.turlockswapmeet.com/", R.drawable
+        entries.add(new Entry(getString(R.string.events_name_six), "http://www.turlockswapmeet" +
+                ".com/", R.drawable
                 .events_six));
-
 
         // Create an {@link EntryAdapter}, whose data source is a list of {@link entry}s. The
         // Adapter knows how to create list items for each item in the list.
